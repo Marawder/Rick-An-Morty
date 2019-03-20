@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    text-align: center;
+
+}
+h2{
+    text-decoration: underline;
+}
+body h2,p{
+    color: rgba(34, 202, 10, 1);
+}
+.Flip{
+    background-color:rgb(7, 195, 29);
+    border: 5px solid rgba(0, 255, 30, 0.6);
+    border-radius: 50px;
+   /* border-color: rgba(0, 255, 30, 0.6);
+    border-radius: 50px;
+    padding: 15px; */
+}
+.header{
+    width: 30vw;
+}
