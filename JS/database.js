@@ -1,54 +1,77 @@
-let pos_neg ={
-    "neg_1":[
-        "./Images/neg_1_claws",
-    ],
-    "neg_2":[   
-        "./Images/neg_2_morty",
-    ],
-    "neg_3":[
-        "./Images/neg_3_sun",
-    ],
-    "neg_4":[    
-        "./Images/neg_4_larry",
-    ],    
-    "neg_5":[    
-        "./Images/neg_5_larry_2",
-    ],    
-    "neg_6":[    
-        "./Images/neg_6_claws",
-    ],    
-    "neg_7":[    
-        "./Images/neg_7_rick_morty",
-    ],    
-    "neg_8":[    
-        "./Images/neg_8_snowball",
-    ],
+let coins = [
+    {
+    "pos": "./Gif/Heads.gif",
+    },
+    {
+    "neg": "./Gif/Tails.gif",
+    },
+];
 
-    "pos_1":[    
-        "./Images/pos_1_getschwifty",
-    ],    
-    "pos_2":[    
-        "./Images/pos_2_mrmeeseeks",
-    ],
-    "pos_3":[    
-        "./Images/pos_3_portal",
-    ],    
-    "pos_4":[    
-        "./Images/pos_4_luva",
-    ],
-    "pos_5":[    
-        "./Images/pos_5_Squanchy",
-    ],    
-    "pos_6":[    
-        "./Images/pos_6_butthole",
-    ],    
-    "pos_7":[    
-        "./Images/pos_7_dance",
-    ],    
-    "pos_8":[    
-        "./Images/pos_8_pickle",
-    ]
-}
-let sound ={
-    ""
-}
+let neg = [
+    {
+    "image": ".Images/neg_1_claws.png",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/neg_2_morty.png",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/neg_3_sun.png",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/neg_4_larry.png",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/neg_5_larry_2.png",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/neg_6_claws",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/neg_7_rick_morty.png",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/neg_8_snowball.png",
+    "sound": ".Sound/",
+    },
+];
+let pos = [
+    {
+    "image": ".Images/pos_1_getscchwifty.png",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/pos_2_mrmeeseeks.png",
+    "sound": ".Sound/pos_2_meeseeks.mp3",
+    },
+    {
+    "image": ".Images/pos_3_portal.png",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/pos_4_luva.png",
+    "sound": ".Sound/pos_4_Wubba.mp3",
+    },
+    {
+    "image": ".Images/pos_5_Squanchy.png",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/pos_6_butthole.png",
+    "sound": ".Sound/pos_6_poopybutthole.mp3",
+    },
+    {
+    "image": ".Images/pos_7_dance.png",
+    "sound": ".Sound/",
+    },
+    {
+    "image": ".Images/pos_8_pickle.png",
+    "sound": ".Sound/pos_8_pickle.mp3",
+    },
+];
