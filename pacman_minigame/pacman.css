@@ -17,6 +17,11 @@ body {
     position: absolute;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .buttons {
     font-family: Schwifty;
     background-color:rgb(7, 195, 29);
@@ -25,31 +30,38 @@ body {
     font-size: 1.3rem;
     padding: 5px;
     margin: 0;
-    font-weight: bold;
 }
-
+.back {
+    margin: 5px;
+    font-family: Schwifty;
+    background-color:rgb(7, 195, 29);
+    border: 5px solid rgba(0, 255, 30, 0.6);
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 2px;
+}
 #up {
     position: relative;
-    top: 86vh;
+    top: 80vh;
     left: 46vw;
 }
 
 
 #down {
     position: relative;
-    top: 93vh;
+    top: 87vh;
     left: 37vw;
 }
 
 #left {
     position: relative;
-    top: 90vh;
+    top: 84vh;
     left: 15vw;
 }
 
 #right {
     position: relative;
-    top: 90vh;
+    top: 84vh;
     left: 26vw;
 }
 #pickle {
