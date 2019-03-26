@@ -27,7 +27,14 @@ body {
     margin: 0;
     font-weight: bold;
 }
-
+.back {
+    font-family: Schwifty;
+    background-color:rgb(7, 195, 29);
+    border: 5px solid rgba(0, 255, 30, 0.6);
+    border-radius: 50px;
+    font-size: 1rem;
+    padding: 2px;
+}
 #up {
     position: relative;
     top: 86vh;
