@@ -1,12 +1,3 @@
-@font-face{
-    src: url(../Font/get_schwifty__a_rick_and_morty_font_by_jonizaak-dajw4u8.ttf);
-    font-family: Schwifty;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
 body {
     background-image: url('assets/space.png');
     background-size: cover auto auto;
@@ -17,46 +8,35 @@ body {
     position: absolute;
 }
 
-.buttons {
-    font-family: Schwifty;
-    background-color:rgb(7, 195, 29);
-    border: 5px solid rgba(0, 255, 30, 0.6);
-    border-radius: 50px;
-    font-size: 1.3rem;
-    padding: 5px;
-    margin: 0;
-    font-weight: bold;
-}
-
 #up {
     position: relative;
-    top: 86vh;
-    left: 46vw;
+    top: 90vh;
+    left: 45vw;
 }
 
 
 #down {
     position: relative;
-    top: 93vh;
-    left: 37vw;
+    top: 95vh;
+    left: 33vw;
 }
 
 #left {
     position: relative;
-    top: 90vh;
-    left: 15vw;
+    top: 92vh;
+    left: 7vw;
 }
 
 #right {
     position: relative;
-    top: 90vh;
-    left: 26vw;
+    top: 92vh;
+    left: 25vw;
 }
 #pickle {
     background-image: url('assets/pickle.png');
     background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     background-size: contain;
     position: absolute;
     left:0px;

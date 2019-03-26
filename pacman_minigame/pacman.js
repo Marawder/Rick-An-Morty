@@ -16,11 +16,36 @@ var currentElement;
 var isMoving = false;
  
 
+/*function start() {
+    console.log("starting the program");
+    for (let i = 0; i<buttons.length; i++){
+      buttons[i].addEventListener('click', function(){
+        switch(buttons[i]) {
+        case up: 
+            move('up');
+            break;
+
+        case down: 
+            move('down');
+            break;
+
+        case right: 
+            move('right');
+            break;
+
+        case left: 
+            move('left');
+            break;
+        }  
+    });
+}
+}   */ 
+    
 function start() {
     console.log("starting the program");
     for (let i = 0; i<buttons.length; i++){
 
-      buttons[i].addEventListener('mousedown', function(){
+      buttons[i].addEventListener('click', function(){
 
        
         switch(buttons[i]) {
@@ -41,25 +66,12 @@ function start() {
             break;
         }
     
-        while (isMoving){
-            move(direction)
-        };
     })  
     }
     
-
-    buttons[i].addEventListener('mouseup', function(){
-        isMoving = false;
-    })
+  
 
 };
-    
-   // up.addEventListener('click', function(){
-    //    console.log('up is clicked');
-    //    move("up");
-    //});
-    
-    
 
 
 
