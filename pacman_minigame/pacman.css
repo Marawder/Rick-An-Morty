@@ -1,0 +1,131 @@
+@font-face{
+    src: url(../Font/get_schwifty__a_rick_and_morty_font_by_jonizaak-dajw4u8.ttf);
+    font-family: Schwifty;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('assets/space.png');
+    background-size: cover auto auto;
+    background-repeat: no-repeat;
+    background-color: #05142d;
+}
+.direction {
+    position: absolute;
+}
+
+.buttons {
+    font-family: Schwifty;
+    background-color:rgb(7, 195, 29);
+    border: 5px solid rgba(0, 255, 30, 0.6);
+    border-radius: 50px;
+    font-size: 1.3rem;
+    padding: 5px;
+    margin: 0;
+    font-weight: bold;
+}
+
+#up {
+    position: relative;
+    top: 86vh;
+    left: 46vw;
+}
+
+
+#down {
+    position: relative;
+    top: 93vh;
+    left: 37vw;
+}
+
+#left {
+    position: relative;
+    top: 90vh;
+    left: 15vw;
+}
+
+#right {
+    position: relative;
+    top: 90vh;
+    left: 26vw;
+}
+#pickle {
+    background-image: url('assets/pickle.png');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: contain;
+    position: absolute;
+    left:0px;
+    top: 50%;
+    z-index: 1;
+    /* transition: all 0.5s; */
+}
+
+#morty {
+    background-image: url('assets/morty.png');
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    z-index: 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+
+#snowball {
+    background-image: url('assets/snowball.png');
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    z-index: 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+
+#sun {
+    background-image: url('assets/sun.png');
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    z-index: 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+
+#portal {
+    background-image: url('assets/portal.png');
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    z-index: 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+
+
+#mr {
+    background-image: url('assets/mr.png');
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    z-index: 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10%;
+    left: 90%;
+}

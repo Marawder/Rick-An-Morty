@@ -51,6 +51,8 @@ body{
 .coin{
     grid-column: span 12;
     margin: auto;
+    width: 60vw;
+
 }
 .button{
     grid-column: span 12;
