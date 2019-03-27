@@ -12,6 +12,7 @@ const down = document.querySelector('#down');
 const right = document.querySelector('#right');
 const left = document.querySelector('#left');
 const buttons = document.querySelectorAll('.buttons');
+let counter = document.querySelector(".counter");
 var currentElement;
 
  
@@ -45,10 +46,69 @@ function start() {
     
     })  
     }
+
+    up.addEventListener("mousedown", function () {
+        startHold("up");
+    });
+
+    up.addEventListener("mouseup", function () {
+        stopHold()
+    });
+
+   down.addEventListener("mousedown", function () {
+       startHold("down");
+    });
+   down.addEventListener("mouseup", function () {
+       stopHold()
+    });
+
+   left.addEventListener("mousedown", function () {
+       startHold("left");
+    });
+   left.addEventListener("mouseup", function () {
+       stopHold()
+    });
+
+   right.addEventListener("mousedown", function () {
+       startHold("right");
+    });
+   right.addEventListener("mouseup", function () {
+       stopHold()
+    });
     
+    let isHolding = false;
+    let timer;
+    // Functions
+    function startHold(direction) {
+        console.log("start the hold");
+        isHolding = true;
+        clearInterval(timer);
 
+        timer = setInterval(function () {
+            run(direction)
+        }, 100);
+
+    }
+
+    function stopHold() {
+        console.log("stop the hold");
+        isHolding = false;
+        clearInterval(timer);
+    }
+
+    function run(direction) {
+        console.log("Holding down");
+        if(direction === "up"){
+            move('up');
+        } else if (direction === "down"){
+            move("down"); 
+        } else if (direction === "right"){
+            move("right");
+        } else if (direction === "left"){
+            move('left');
+        }
+    }
 };
-
 
 
 var speed = 20;
