@@ -9,69 +9,69 @@ let coins = [
 
 let neg = [
     {
-    "image": "Images/neg_1_claws.png",
+    "image": "Images/bobbler/neg_1.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/neg_2_morty.png",
+    "image": "Images/bobbler/neg_2.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/neg_3_sun.png",
+    "image": "Images/bobbler/neg_3.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/neg_4_larry.png",
+    "image": "Images/bobbler/neg_4.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/neg_5_larry_2.png",
+    "image": "Images/bobbler/neg_5.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/neg_6_claws",
+    "image": "Images/bobbler/neg_6.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/neg_7_rick_morty.png",
+    "image": "Images/bobbler/neg_7.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/neg_8_snowball.png",
+    "image": "Images/bobbler/neg_8.png",
     "sound": "Sound/",
     },
 ];
 let pos = [
     {
-    "image": "Images/pos_1_getscchwifty.png",
+    "image": "Images/bobbler/pos_1.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/pos_2_mrmeeseeks.png",
+    "image": "Images/bobbler/pos_2.png",
     "sound": "Sound/pos_2_meeseeks.mp3",
     },
     {
-    "image": "Images/pos_3_portal.png",
+    "image": "Images/bobbler/pos_3.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/pos_4_luva.png",
+    "image": "Images/bobbler/pos_4.png",
     "sound": "Sound/pos_4_Wubba.mp3",
     },
     {
-    "image": "Images/pos_5_Squanchy.png",
+    "image": "Images/bobbler/pos_5.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/pos_6_butthole.png",
+    "image": "Images/bobbler/pos_6.png",
     "sound": "Sound/pos_6_poopybutthole.mp3",
     },
     {
-    "image": "Images/pos_7_dance.png",
+    "image": "Images/bobbler/pos_7.png",
     "sound": "Sound/",
     },
     {
-    "image": "Images/pos_8_pickle.png",
+    "image": "Images/bobbler/pos_8.png",
     "sound": "Sound/pos_8_pickle.mp3",
     },
 ];

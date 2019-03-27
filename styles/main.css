@@ -65,5 +65,7 @@ body{
     padding: 1vw;
 }
 .result {
+    grid-column: span 12;
     max-width: 70vw;
+    margin: auto;
 }
