@@ -96,3 +96,7 @@ html, body, .viewport {
    text-align: center;
     margin: auto;
 }
+.loading{
+    grid-column: span 12;
+    width: 300px;
+}
