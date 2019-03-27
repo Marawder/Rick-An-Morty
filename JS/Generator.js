@@ -4,16 +4,16 @@ let resultaudio = document.querySelector(".resultaudio");
 
 coin.addEventListener("click",function(){
 console.log("clicked");
-let randomindex = Math.floor(Math.random()*coins.length);
+let randomindex = Math.floor(Math.random()*coins.length); // her går den ind i data og kigger på coins items og sætter det i index
 console.log(randomindex);
 if (randomindex === 0) {
     coin.src="./Gif/heads.gif";
-   setTimeout(function(){
-    let posi = Math.floor(Math.random()*pos.length);
+   setTimeout(function(){                     // her sættes der en timer på hvornår denne anonyme funktion skal starte.
+    let posi = Math.floor(Math.random()*pos.length);   // her laves der index på positive elementer og gemmes i posi
     console.log(posi);
-    input.src= pos[posi].image;
-    resultaudio.src = pos[posi].sound;
-    onmousedown=resultaudio.play();
+    input.src= pos[posi].image;    // her bliver input i HTML givet en source fra pos array, med argument posi index tal
+    resultaudio.src = pos[posi].sound;  // her bliver resultaudio givet en source fra pos array med argument posi index tal
+    onmousedown=resultaudio.play();  // her klargøres det at funktionen on click i funktion = resultaudio variable og givet play funktion.
    }, 3000);
 } else {
     coin.src="./Gif/tails.gif";
@@ -27,23 +27,3 @@ if (randomindex === 0) {
     
 }
 });
-
-//coin.addEventListener("click",function(){
-//
-//    if (randomindex === 0) {
-//        console.log("positive");
-//    } else {
-//        console.log("Negative");
-//    }
-//    });
-
-
-
-
-//coin.addEventListener("click",function(){
-//if (randomindex === 0) {
-//   input.src="";
-//} else {
-//    input.src="";
-//}
-//});
