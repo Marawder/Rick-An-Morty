@@ -35,7 +35,7 @@ body{
 }
 .title{
     grid-column: span 12;
-    width: 100vw;
+    width: 95vw;
     height: 20vh;
 }
 .headline{
