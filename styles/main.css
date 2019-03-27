@@ -64,3 +64,6 @@ body{
     cursor: pointer;
     padding: 1vw;
 }
+.result {
+    max-width: 70vw;
+}
