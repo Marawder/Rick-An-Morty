@@ -66,4 +66,5 @@ body{
 }
 .result {
     max-width: 70vw;
+    display: none;
 }
