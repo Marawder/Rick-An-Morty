@@ -5,7 +5,6 @@ let coinFlip = document.querySelector(".coin_flip")
 
 
 coin.addEventListener("click",function(){
-console.log("clicked");
 let randomindex = Math.floor(Math.random()*coins.length); // her går den ind i data og kigger på coins items og sætter det i index
 console.log(randomindex);
 onmousedown=coinFlip.play();
