@@ -7,7 +7,8 @@ let coinFlip = document.querySelector(".coin_flip")
 coin.addEventListener("click",function(){
 let randomindex = Math.floor(Math.random()*coins.length); // her går den ind i data og kigger på coins items og sætter det i index
 console.log(randomindex);
-onmousedown=coinFlip.play();
+coinFlip.play();
+
 if (randomindex === 0) {
     coin.src="./Gif/heads.gif";
    setTimeout(function(){                     // her sættes der en timer på hvornår denne anonyme funktion skal starte.
