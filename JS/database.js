@@ -37,13 +37,15 @@ let neg = [
         "sound": "Sound/where_are_my_testicles.mp3",
         },
 
-        {
-            "image": "Images/bobbler/neg_8.png",
-            "sound": "Sound/meeseeks_neg.mp3",
-            },
+    {
+    "image": "Images/bobbler/neg_8.png",
+    "sound": "Sound/meeseeks_neg.mp3",
+    },
+    {
+        "image": "Images/bobbler/neg_6.png",
+        "sound": "Sound/tinyrick.mp3",
+        },
   
-
-
 ];
 let pos = [
     {
