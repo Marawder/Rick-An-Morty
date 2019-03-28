@@ -12,6 +12,8 @@ body {
     background-size: cover auto auto;
     background-repeat: no-repeat;
     background-color: #05142d;
+    width: 100vw;
+    height: 100vh;
 }
 .direction {
     position: absolute;
