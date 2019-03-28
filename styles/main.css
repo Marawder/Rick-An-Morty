@@ -68,3 +68,9 @@ body{
     max-width: 70vw;
     display: none;
 }
+.active{
+    display: block;
+    max-width: 70vw;
+   margin: 0px auto auto auto;
+   max-height: 30vh;
+}
