@@ -14,9 +14,16 @@ body {
     background-color: #05142d;
     width: 100vw;
     height: 100vh;
+    display: grid;
+    grid-template-rows: 5vh 1fr 1fr 1fr 10vh 10vh;
+    grid-template-columns: 1fr 1fr;
 }
-.direction {
-    position: absolute;
+.boosters {
+    grid-row: 1/5;
+}
+section.direction {
+    grid-row: 5/7;
+    grid-column: 1/3;
 }
 
 a {
@@ -39,32 +46,29 @@ a {
     background-color:rgb(7, 195, 29);
     border: 5px solid rgba(0, 255, 30, 0.6);
     border-radius: 50px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 2px;
+    grid-row: 1;
+    grid-column: 1;
+    width: 30vw;
 }
 #up {
-    position: relative;
-    top: 80vh;
-    left: 46vw;
+    grid-row: 5;
 }
 
 
 #down {
-    position: relative;
-    top: 87vh;
-    left: 37vw;
+    grid-row: 6;
 }
 
 #left {
-    position: relative;
-    top: 84vh;
-    left: 15vw;
+    grid-row: 5;
+    grid-column:1;
 }
 
 #right {
-    position: relative;
-    top: 84vh;
-    left: 26vw;
+    grid-row:5;
+    grid-column: 2;
 }
 #pickle {
     background-image: url('assets/pickle.png');
