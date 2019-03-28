@@ -3,7 +3,6 @@ let input = document.querySelector(".result");
 let resultaudio = document.querySelector(".resultaudio");
 
 coin.addEventListener("click",function(){
-console.log("clicked");
 let randomindex = Math.floor(Math.random()*coins.length); // her går den ind i data og kigger på coins items og sætter det i index
 console.log(randomindex);
 if (randomindex === 0) {
