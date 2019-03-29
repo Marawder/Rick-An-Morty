@@ -71,8 +71,8 @@ body{
 .active{
     display: block;
     max-width: 70vw;
-   margin: 0px auto auto auto;
-   max-height: 30vh;
+    margin: 0px auto auto auto;
+    max-height: 30vh;
 }
 .hidden{
     display: none;
@@ -81,6 +81,12 @@ body{
 .bo img{
 
     max-width: 70vw;
-   margin: 0px auto auto auto;
-   max-height: 30vh; 
+    margin: 0px auto auto auto;
+    max-height: 30vh; 
+}
+
+a.bo {
+    max-width: 70vw;
+    margin: 0px auto auto auto;
+    max-height: 30vh; 
 }
