@@ -10,12 +10,13 @@ coin.addEventListener("click",function(){
 let randomindex = Math.floor(Math.random()*coins.length); // her går den ind i data og kigger på coins items og sætter det i index
 console.log(randomindex);
 coinFlip.play();
-input.classList.remove("hidden");
+input.classList.add("hidden");
 bo.classList.add("hidden");
 if (randomindex === 0) {
     coin.src="./Gif/heads.gif";
    setTimeout(function(){                     // her sættes der en timer på hvornår denne anonyme funktion skal starte.
     input.classList.remove("result");
+    input.classList.remove("hidden");
     input.classList.add("active");
     let posi = Math.floor(Math.random()*pos.length);   // her laves der index på positive elementer og gemmes i posi
     console.log(posi);
@@ -36,6 +37,7 @@ if (randomindex === 0) {
     coin.src="./Gif/tails.gif";
     setTimeout(function(){
         input.classList.remove("result");
+        input.classList.remove("hidden");
         input.classList.add("active");
         let negi = Math.floor(Math.random()*neg.length);
     console.log(negi);
