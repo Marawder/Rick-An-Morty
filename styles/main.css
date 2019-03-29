@@ -74,3 +74,13 @@ body{
    margin: 0px auto auto auto;
    max-height: 30vh;
 }
+.hidden{
+    display: none;
+    
+}
+.bo img{
+
+    max-width: 70vw;
+   margin: 0px auto auto auto;
+   max-height: 30vh; 
+}
